@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Summary.vue has the expected html structure 1`] = `
+<div
+  class="row"
+>
+  <div
+    class="col text-center"
+  >
+    <h1>
+      $100
+    </h1>
+    
+    Your current balance
+    
+  </div>
+</div>
+`;
