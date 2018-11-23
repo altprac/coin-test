@@ -1,0 +1,27 @@
+{
+  "name": "coin-test",
+  "version": "1.0.0",
+  "description": "cd server",
+  "main": "index.js",
+  "dependencies": {
+    "vue-socket.io": "^2.1.1-b",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build":"npm run client && npm run server",
+	"client":"cd client && npm install && npm run build",
+	"server":"cd server && npm install && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altprac/coin-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/altprac/coin-test/issues"
+  },
+  "homepage": "https://github.com/altprac/coin-test#readme"
+}
