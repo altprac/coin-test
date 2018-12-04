@@ -1,4 +1,4 @@
-# Nauticus Task
+#  Task
 
 ## Installation
 
@@ -22,4 +22,4 @@ npm install
 
  *for prod*
  
- nom run build *(build client to the dist folder on the server which can be accessed @ localhost:3000)* 
+ npm run build *(build client to the dist folder on the server which can be accessed @ localhost:3000)* 
