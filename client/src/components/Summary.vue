@@ -1,7 +1,7 @@
 <template>
    <div class="row">
      <div class="col text-center">
-      <h1>{{total}}</h1>
+      <h1>XX {{process.env.MAINTENANCE}} XX</h1>
       Your current balance
       </div>
   </div>
