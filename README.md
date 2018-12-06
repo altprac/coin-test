@@ -23,3 +23,4 @@ npm install
  *for prod*
  
  npm run build *(build client to the dist folder on the server which can be accessed @ localhost:3000)* 
+  
