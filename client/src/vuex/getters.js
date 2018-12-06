@@ -9,6 +9,7 @@ const getSubTotal = (state, key) => {
   const {value = 0, volume = 0} = state.cryptos.find(e => e.name === key)
   return (value * volume * state.fiats[state.currentFiat]) || 0
 }
+
 const getSymbol = fiat => {
   switch (fiat) {
     case 'GBP':
