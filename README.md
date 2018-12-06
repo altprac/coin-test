@@ -14,7 +14,7 @@ npm start *(start server on localhost:3000)*
 
 cd client
 
-npm install
+npm install 
 
 *for dev*
 
