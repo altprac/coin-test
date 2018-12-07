@@ -14,7 +14,7 @@ import { mapGetters, mapActions } from 'vuex'
 import FiatComponent from './components/Fiat'
 import SummaryComponent from './components/Summary'
 import DetailsComponent from './components/Details'
-
+ 
 export default {
   components: {
     FiatComponent,
