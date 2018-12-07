@@ -1,5 +1,5 @@
 <template>
-  <div id="app"  class="container">
+  <div id="app"  class="container"> 
     <fiat-component :fiats ="fiats" :currentFiat="currentFiat" />
     <summary-component :total="total"/>
     <details-component :cryptos="cryptos"/>
