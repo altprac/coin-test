@@ -7,7 +7,7 @@
       Data provided by <a href ="https://www.cryptocompare.com"  target="_blank">cryptocompare.com</a> and <a href ="https://free.currencyconverterapi.com/" target="_blank">free.currencyconverterapi.com</a>
     </footer>
   </div>
-</template>
+</template> 
 
 <script>
 import { mapGetters, mapActions } from 'vuex'
