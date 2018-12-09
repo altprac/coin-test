@@ -18,7 +18,7 @@ import DetailsComponent from './components/Details'
 export default {
   components: {
     FiatComponent,
-    SummaryComponent,
+    SummaryComponent, 
     DetailsComponent
   },
   computed: mapGetters({
