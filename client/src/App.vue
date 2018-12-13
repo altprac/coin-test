@@ -1,5 +1,5 @@
 <template>
-  <div id="app"  class="container">
+  <div id="app" class="container"> 
     <fiat-component :fiats ="fiats" :currentFiat="currentFiat" />
     <summary-component :total="total"/>
     <details-component :cryptos="cryptos"/>
@@ -7,18 +7,18 @@
       Data provided by <a href ="https://www.cryptocompare.com"  target="_blank">cryptocompare.com</a> and <a href ="https://free.currencyconverterapi.com/" target="_blank">free.currencyconverterapi.com</a>
     </footer>
   </div>
-</template>
+</template> 
 
 <script>
 import { mapGetters, mapActions } from 'vuex'
 import FiatComponent from './components/Fiat'
 import SummaryComponent from './components/Summary'
 import DetailsComponent from './components/Details'
-
+ 
 export default {
   components: {
     FiatComponent,
-    SummaryComponent,
+    SummaryComponent, 
     DetailsComponent
   },
   computed: mapGetters({
@@ -50,4 +50,4 @@ body {
     justify-content: center;
     align-items: center;
 }
-</style>
+</style> 

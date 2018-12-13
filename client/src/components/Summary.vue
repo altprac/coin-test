@@ -2,7 +2,7 @@
    <div class="row">
      <div class="col text-center">
       <h1>{{total}}</h1>
-      Your current balance
+      Your current balance 
       </div>
   </div>
 </template>
@@ -14,4 +14,4 @@ export default {
 </script>
 
 <style>
-</style>
+</style> 

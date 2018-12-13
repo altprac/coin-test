@@ -1,7 +1,7 @@
-# Nauticus Task
+#  Task
 
 ## Installation
-
+ 
 ### Server
 
 cd server
@@ -14,7 +14,7 @@ npm start *(start server on localhost:3000)*
 
 cd client
 
-npm install
+npm install 
 
 *for dev*
 
@@ -22,4 +22,5 @@ npm install
 
  *for prod*
  
- nom run build *(build client to the dist folder on the server which can be accessed @ localhost:3000)* 
+ npm run build *(build client to the dist folder on the server which can be accessed @ localhost:3000)* 
+  

@@ -20,7 +20,7 @@ const subscription = crypto.map(key => {
 });
 // subscribe to feed
 clientIo.emit('SubAdd', { subs: subscription });
-// handle subscription
+// handle subscription 
 clientIo.on('m', (message) => {
     const msg = message.split('~');
     if(msg[0] ==5 && (msg[4] !=4 || !app.locals.crypto[msg[2]])){
