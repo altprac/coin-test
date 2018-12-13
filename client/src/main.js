@@ -7,7 +7,7 @@ import VueSocketIO from 'vue-socket.io'
 
 Vue.config.productionTip = false
 console.log("--------------------------------------------");
-console.log(process.env.process.env.API);
+console.log(process.env.VUE_APP_ENABLE_MAINTENANCE);
 Vue.use(VueSocketIO, process.env.API, store)
 
 /* eslint-disable no-new */
