@@ -14,7 +14,7 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const env = process.env.NODE_ENV === 'testing'
   ? require('../config/test.env')
   : require('../config/prod.env')
-
+console.log("XXXXXXXX", process.env.VUE_APP_ENABLE_MAINTENANCE)
 env.VUE_APP_ENABLE_MAINTENANCE = process.env.VUE_APP_ENABLE_MAINTENANCE;
 const webpackConfig = merge(baseWebpackConfig, {
   module: {
