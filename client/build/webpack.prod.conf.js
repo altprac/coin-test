@@ -15,7 +15,12 @@ const env = process.env.NODE_ENV === 'testing'
   ? require('../config/test.env')
   : require('../config/prod.env')
 console.log("XXXXXXXX", process.env.VUE_APP_ENABLE_MAINTENANCE)
-env.VUE_APP_ENABLE_MAINTENANCE = process.env.VUE_APP_ENABLE_MAINTENANCE;
+if(process.env.WEBHOOK_TITLE ==='Maintenance'){
+  process.env.VUE_APP_ENABLE_MAINTENANCE = true
+}else{
+  env.VUE_APP_ENABLE_MAINTENANCE = process.env.VUE_APP_ENABLE_MAINTENANCE;
+}
+console.log("XXXXXXXX", process.env.VUE_APP_ENABLE_MAINTENANCE)
 const webpackConfig = merge(baseWebpackConfig, {
   module: {
     rules: utils.styleLoaders({
