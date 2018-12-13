@@ -2,7 +2,7 @@
    <div class="row">
      <div class="col text-center">
       <h1>{{total}}</h1>
-      Your current balance {{process.env.VUE_APP_ENABLE_MAINTENANCE}}
+      Your current balance 
       </div>
   </div>
 </template>
