@@ -1,5 +1,6 @@
 'use strict'
 module.exports = {
   NODE_ENV: '"production"',
-  API: "'/'"
+  API: "'/'",
+  VUE_APP_ENABLE_MAINTENANCE: '"false"'
 }
