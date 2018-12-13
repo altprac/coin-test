@@ -2,7 +2,7 @@
   <div>
     <ul>
       <div class="row">
-        <div class ="col">Coin {{process.env.MAINTENANCE}} XX</div>
+        <div class ="col">Coin </div>
         <div class ="col">Amount</div>
         <div class ="col">Total</div>
       </div>
