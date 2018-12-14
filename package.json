@@ -13,7 +13,7 @@
 	"build":"npm run client",
 	"client":"cd client && npm install && npm run setenv && npm run build",
 	"postinstall":"node post",
-	  "setenv":"node ../pre"
+	  "setenv":"node pre"
 
   },
   "repository": {
