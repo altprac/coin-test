@@ -11,9 +11,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
 	"build":"npm run client",
-	"client":"cd client && npm install && npm run build",
+	"client":"npm setenv && cd client && npm install && npm run build",
 	"postinstall":"node post",
-	  "preinstall":"node pre"
+	  "setenv":"node pre"
 
   },
   "repository": {
